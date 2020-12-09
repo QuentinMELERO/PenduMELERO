@@ -34,7 +34,7 @@ def affichage_mot(mot_deviner): # Transformation de mot_deviner en chaine de car
 ## Choisir le mot
 
 def mot_aleatoire():
-    """ Fonction qui retourne un mot aléatoire du fichier mots.txt"""
+    """ Fonction qui retourne un mot aléatoire du fichier mots.txt """
     monfichier=open('mots.txt','r')
     lignes = monfichier.readlines()
     nb_al = rd.randint(0,len(lignes))
